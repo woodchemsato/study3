@@ -4,7 +4,7 @@ $(function() {
   // console.log($('ul').children('li'));
 
   // 復習　２番目を取得
-  console.log($('ul').children('li').eq(1));
+  // console.log($('ul').children('li').eq(1));
 
   // 要素の削除系 バリエーション
 
@@ -12,8 +12,9 @@ $(function() {
   // $('li:last').remove();
 
   // 指定したidを削除
-  // $('li#id4-3_3').remove(); // もちろん li はなくてもOK
+  // $('li#id4-3_3').remove();
 
-  // 子要素全部を削除
+  // 課題：子要素を全て削除
+  // 「jquery 子要素 全部 削除」 でググってください
   // $('ul').empty();
 });
