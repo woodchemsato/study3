@@ -26,4 +26,14 @@ $(function() {
     $('#color4').css('color','');
   });
 
+  // 課題5-2(1)
+  // HTMLに要素を追加（idをcolor5としてください）して、
+  // マウスが乗ったら文字色を白、背景色を紫色に変えてください。
+  // ただし、マウスが外れても色はそのままにしてください。
+  $('#color5').hover(function() {
+    $('#color5').css('background-color','purple');
+    $('#color5').css('color','white');
+  });
+
+
 });

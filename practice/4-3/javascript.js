@@ -10,11 +10,11 @@ $(function() {
 
   // 子要素の最後を指定 remove()
   // $('li:last').remove();
+  // $('li').last().remove();
 
   // 指定したidを削除
   // $('li#id4-3_3').remove();
 
   // 課題4-3(1)：子要素を全て削除
   // 「jquery 子要素 全部 削除」 でググってください
-  // $('ul').empty();
 });

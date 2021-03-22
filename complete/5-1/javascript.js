@@ -21,9 +21,13 @@ $(function() {
   });
 
   // 課題5-1(1)：削除するボタンを作って、一番最後の要素を消してみよう！
-  // $('ul').children().last().remove();  // lastはなくても大丈夫
+  $('#dellastlibtn').on('click',function() {
+    $('ul').children().last().remove();  // lastはなくても大丈夫
+  });
 
   // 課題5-1(2)：削除するボタンを作って、一番最初の要素を消してみよう！
-  // $('ul').children().first().remove();  // lastはなくても大丈夫
+  $('#delfirstlibtn').on('click',function() {
+    $('ul').children().first().remove();
+  });
 
 });

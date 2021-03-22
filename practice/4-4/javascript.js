@@ -21,6 +21,5 @@ $(function() {
   // $('li').addClass('addClass'); 
 
   // 課題4-4(1)：idがid4-4_3のものだけ青字にしてください
-  // $('li#id4-4_3').css('color', 'blue'); 
 
 });
